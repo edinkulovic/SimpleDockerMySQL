@@ -6,9 +6,9 @@ This setup SHOULD NOT be used in production.
 
 For more details about Docker, MySQL and MySQL Docker Container please check these links:
 
-https://www.docker.com/
-https://hub.docker.com/r/mysql/mysql-server/
-https://www.mysql.com/
+- https://www.docker.com/
+- https://hub.docker.com/r/mysql/mysql-server/
+- https://www.mysql.com/
 
 ## 0. Install docker 
 
