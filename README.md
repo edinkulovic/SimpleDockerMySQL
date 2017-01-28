@@ -57,6 +57,10 @@ docker ps -a
 
 The -a flag tells docker run to bind to the container’s STDIN, STDOUT or STDERR. This makes it possible to manipulate the output and input as needed.
 
+## 5. Access to database
+
+There are multiple ways for accessing database but for now I am using Valentina Studio just for testing and playing with database directly. In order to access to database use database name, user name and user password provided in the run command and for the host user `localhost` on port `6603` (specified in the run command). Connection Method is Standard TCP/IP.
+
 ## TODO
  - Add support for external mysql config file instead of passing it as an argument like `explicit_defaults_for_timestamp`
  - Add support for initial script execution 
