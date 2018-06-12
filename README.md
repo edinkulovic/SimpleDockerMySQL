@@ -23,7 +23,7 @@ For more details about Docker, MySQL and MySQL Docker Container please check the
 ## 2. Run the Container
 
 ```
-docker run -d -v /private/var/lib/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=my-big-root-password -e MYSQL_DATABASE=my-test-db -e MYSQL_USER=test-user -e MYSQL_PASSWORD=test-user-pass -p 6603:3306 --name mysql-database mysql:latest --explicit_defaults_for_timestamp=TRUE
+docker run -d -v /private/var/lib/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=my-big-root-password -e MYSQL_DATABASE=my-test-db -e MYSQL_USER=test-user -e MYSQL_PASSWORD=test-user-pass -p 6603:3306 --name mysql-database mysql:latest --explicit_defaults_for_timestamp=TRUE --default-authentication-plugin=mysql_native_password
 ```
 
 If all is entered correctly in the command above, you shoud get output like this 
